@@ -15,9 +15,9 @@
                     <label for="message" class="block mb-2 text-sm font-medium  text-gray-400">Your message</label>
                     <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-primary-500  focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                 </div>
-                <NuxtLink to="services" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-blue-100 focus:ring-4 focus:ring-gray-100  text-white  border-gray-700  hover:bg-blue-800  focus:ring-blue-800 hover:border-blue-800 w-full">
+                <button type="submit" to="services" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-blue-100 focus:ring-4 focus:ring-gray-100  text-white  border-gray-700  hover:bg-blue-800  focus:ring-blue-800 hover:border-blue-800 w-full">
                     Send Message
-                </NuxtLink> 
+                </button> 
             </form>
         </div>
         </section>
