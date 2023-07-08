@@ -2,7 +2,7 @@
     <section class="bg-gray-900 w-full" id="ContactForm"   >
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md" >
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900  text-white">Contact Us</h2>
-            <form action="#" class="space-y-8" :data-aos="'fade-right'" data-aos-duration="1000" >
+            <form action="#" class="space-y-8" :data-aos="'fade-right'" data-aos-duration="1000" netlify >
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium  text-gray-300">Your email</label>
                     <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-primary-500  focus:border-primary-500  shadow-sm-light" placeholder="name@gmail.com" required>
